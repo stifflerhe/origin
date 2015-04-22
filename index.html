@@ -7,11 +7,14 @@
 </head>
 <body>
 <div class = "bg">
-<image width = "100%" height = "100%" src="file:///C:/Users/xxhe/Desktop/homework1/image/clouds.gif"></image>
+<image width = "100%" height = "100%" src="image/clouds.gif"></image>
+<script type ="text/javascript" src = "js/jquery-1.11.2.js"></script>
+<script type ="text/javascript" src="js/index.js"></script>
 </div>
-<body>
+<body onresize="resize()">
 <div class = "wrapper">
 <div class = "sign">
+<image src="image/logo.png" width = "100%" height ="100%"></image>
 </div>
 <div class="nav">
 <ul>
@@ -25,10 +28,16 @@
 <li><a href ="#">学院地址</a></li>
 </ul>
 </div>
-<image src ="file:///C:/Users/xxhe/Desktop/homework1/image/banner.jpg" width="100%"  ></image>
+<image id = "displayer" src ="image/banner.jpg" width="100%" height ="300px"  ></image>
 <div class = "clear"></div>
+<div id = "bttnwr">
+<div>1</div>
+<div>2</div>
+<div>3</div>
+</div>
+
 <div class = "leftContent">
-<image src="file:///C:/Users/xxhe/Desktop/homework1/image/articleBanner.jpg" width="100%"></image>
+<image src="image/articleBanner.jpg" width="100%"></image>
 <h1>Web前端开发工程师好找工作吗？</h1>
 <p>据09年全国Web前端开发行业调查统计显示，09年大型企业对于Web前端开发人才需求紧缺。 Web前端开发目前是一种新兴职业，专业的前端开发人员绝大部分存在于大型企业中，
 如腾讯、百度等，换种说法就是：选择从事Web前端开发就等于你的一只脚已经迈进了腾讯、百度等高薪企业。</p>
@@ -76,7 +85,6 @@
 <p style="text-align:center;color:white">京ICP备10055601号  All rights(C)2008-2010 Reserved</p>
 </div>
 </div>
-
 <body>
 </ul>
 </html>
