@@ -14,8 +14,8 @@ function initial(){
 	partselect();
 }
 function resizeFont() { 
-	var font_size = $(".nav ul li a").width()/5;
-	$("*").css("font-size",font_size+"px");
+	var font_size = $(".nav ul li a").width()/4.3;
+	$("li").css("font-size",font_size+"px");
 }
 function roundshow(path){
 	var i=1;
@@ -26,17 +26,23 @@ function roundshow(path){
 	return result;
 }
 function partselect(){
+	$("#floatopt"+1+" "+"div").css("background-color","#860000");
+				$("#floatopt"+1).css("background-color","#FFFFFF");
 	$(".floatopt div").mouseover(function(){
 		var id =$(this).attr("id");
 		var index = id[id.length-1]
-		console.log(index);
 		for(var i=0+1;i<$(".floatopt div").length+1;i++){
 			if(i == index){
 				$("#floatblock"+i).css("display","block");
+				$("#floatopt"+i+" "+"div").css("background-color","#860000");
+				$("#floatopt"+i).css("background-color","#FFFFFF");
 			}else{
 				$("#floatblock"+i).css("display","none");
+				$("#floatopt"+i+" "+"div").css("background-color","#808080");
+				$("#floatopt"+i).css("background-color","#808080");
 			}
 		}
-	})
+	});
+	
 	
 }
