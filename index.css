@@ -42,13 +42,13 @@ background:black;
   clear: both;
   }
   .leftContent{
-  margin-left:1%;
+  margin-left:0.5%;
   width:60%;
   float:left;
   }
   .rightContent{
   width:37%;
-  margin-left:1%;
+  margin-left:1.5%;
   float:left;
   }
 body{
@@ -116,4 +116,20 @@ text-align:center;
 color :black;
 border-radius:50%;
 float :left;
+}
+.floatopt{
+height:40px;
+width:100%;
+background:#E8E5E5;
+}
+.floatopt div{
+width:20%;
+height:100%;
+float:left;
+text-align:center;
+line-height:40px;
+
+}
+.floatopt div:hover{
+background:#FFFFFF;
 }
