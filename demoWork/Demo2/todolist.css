@@ -1,0 +1,50 @@
+#header{
+	width:100%;
+	height:50px;
+	background: #191919;
+}
+#title{
+	width:100px;
+	height: 50px;
+	float: left;
+	background: red;
+}
+#user_info{
+	width:150px;
+	height:50px;
+	float:right;
+	background: red;
+}
+#content{
+	width: 70%;
+	margin:0 auto;
+	height:100%;
+	background: green;
+
+}
+.clear{
+	clear:both;
+}
+h1{
+	margin:10%;
+	margin-top:30px;
+	padding-top:10px;
+	margin-bottom: 10px;
+}
+h1 span{
+	font-size: 18px;
+}
+#mention{
+	margin: 10% ;
+	background: gray;
+	height: 200px;
+	width:80%;
+	margin-top:40px;
+}
+#job{
+	margin: 10% ;
+	background: yellow;
+	width:80%;
+	margin-top:40px;
+	height:300px;
+}
