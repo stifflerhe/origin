@@ -4,13 +4,21 @@
 	background: #191919;
 }
 #title{
-	width:100px;
+	width:150px;
+	text-align: center;
 	height: 50px;
 	float: left;
-	background: red;
+	margin-left: 20px
+}
+#title p{
+	font-size:22px ;
+	font-weight:bold;
+	color:white ;
+	line-height:50px;
+	margin: 0;
 }
 #user_info{
-	width:150px;
+	width:300px;
 	height:50px;
 	float:right;
 	background: red;
@@ -19,32 +27,89 @@
 	width: 70%;
 	margin:0 auto;
 	height:100%;
-	background: green;
-
 }
 .clear{
 	clear:both;
 }
 h1{
-	margin:10%;
+	padding-left:20px;
 	margin-top:30px;
 	padding-top:10px;
 	margin-bottom: 10px;
+	text-align: 2em
 }
 h1 span{
 	font-size: 18px;
 }
 #mention{
-	margin: 10% ;
-	background: gray;
-	height: 200px;
-	width:80%;
-	margin-top:40px;
+	background: rgb(245,242,242);
+	width:100%;
+	margin-top:20px;
+	padding-bottom: 20px;
+	border-radius: 5px;
 }
-#job{
-	margin: 10% ;
-	background: yellow;
+ol{
+	margin:0;
 	width:80%;
-	margin-top:40px;
-	height:300px;
+	padding-left:60px;
+	padding-top:20px;
+	font-weight: bold;
+}
+ol li {
+	padding:2px;
+}
+.job{
+	
+	background: rgb(245,242,242);
+	width:100%;
+	margin-top:20px;
+}
+.time{
+	margin:0;
+	float: left;
+	width:20%;
+	background: rgb(245,242,242);
+	height:40px;
+	line-height: 40px;
+	text-align: center;
+	border-radius: 5px 0 0 5px;
+	margin-bottom:15px;
+}
+.workcontent{
+	padding:0;
+	margin:0;
+	border-width: 0;
+	float:left;
+	width:70%;
+	height: 40px;
+	margin-bottom:15px;
+	background:#E5F4F2;
+}
+.edit{
+	float:left;
+	width:10%;
+	height: 40px;
+	border-radius: 0 5px 5px 0;
+	margin-bottom:15px;
+}
+.edit p{
+float: left;
+width:50%;
+text-align: center;
+line-height: 40px;
+margin:0;
+background:rgb(245,242,242);
+}
+.edit p:hover{
+	cursor: pointer;
+}
+.newworkcontent{
+	padding:0;
+	margin:0;
+	border-width: 0;
+	float:left;
+	width:80%;
+	height: 40px;
+	margin-bottom:15px;
+	background:#E5F4F2;
 }
