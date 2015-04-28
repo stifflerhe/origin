@@ -39,6 +39,9 @@ display:block;
 .nav ul li a:hover,td a:hover{
 background:#E8E5E5;
 }
+.navitem{
+font-size:14px;
+}
 .clear {
   clear: both;
   }
